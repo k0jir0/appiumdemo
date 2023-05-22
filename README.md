@@ -73,7 +73,7 @@ Notes:
 - Xcode 14.2
 - GPS coordinates: 45.5017, -73.5673
 
-# Visual Studio Code
+# Visual Studio Code Details
 - Version: 1.78.2 (Universal)
 - Commit: b3e4e68a0bc097f0ae7907b217c1119af9e03435
 - Date: 2023-05-10T14:44:45.204Z
