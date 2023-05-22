@@ -1,7 +1,7 @@
 # appiumdemo
 
 # https://github.com/k0jir0/appiumdemo/tree/master.git is the repo branch containing the VSC project build.
-# note: the path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java should be re-configured to point to the new path of your environment after downloading. the build is contained in the project in a folder called build.
+ note: the path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java should be re-configured to point to the new path of your environment after downloading. the build is contained in the project in a folder called build.
 
 note: setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
 note: readme assumes the user has their environment configured appropriately and conventionally according to Appium and the setup guide above.
