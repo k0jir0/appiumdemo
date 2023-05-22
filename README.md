@@ -59,7 +59,7 @@ Steps:
 
 Note: The path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java must be re-configured to point to the new path of your environment after downloading. the build is contained in the project in a folder called build.
 
-Note: The path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java must be re-configured to point to the unique identifier of your emulated Android Device. 
+Note: The name of the device inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java must be re-configured to point to the unique identifier of your emulated Android Device. 
 
 # Project Specifications:
 - MacOS 12.6.2 Monterey
