@@ -3,7 +3,7 @@
 # https://github.com/k0jir0/appiumdemo/tree/master.git is the repo branch containing the VSC project build.
 
 note: setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
-- it is recommended for one to their environment configured according to the setup guide above.
+- it is recommended for one to configure their environment according to the setup guide above.
 
 note: assignment: https://github.com/TouchTunes/mobile-qa-tech-assignment
 
