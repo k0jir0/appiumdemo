@@ -55,9 +55,9 @@ All Terminal configurations listed in https://www.swtestacademy.com/how-to-insta
 
 3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
 4. Press F5 (MacOS) to run.
-5. When the Java application runs in the embedded Terminal with a lightweight CLI, input function command 1 to configure your device and build paths.
-6. Press 2 to start the Appium server.
-7. Press 3 to run the automation script.
+5. When the Java application runs in the embedded Terminal with a lightweight CLI, input 1 to configure your device and build paths.
+6. Input 2 to start the Appium server.
+7. Input 3 to run the automation script.
 
 # Project Specifications:
 MacOS 12.6.2 Monterey
