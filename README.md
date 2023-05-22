@@ -2,10 +2,10 @@
 
 https://github.com/k0jir0/appiumdemo/tree/master.git is the repo branch containing the VSC project build.
 
-setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
-- it is recommended for one to configure their environment according to the setup guide above.
+Setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
+- It is recommended for one to configure their environment according to the setup guide above.
 
-assignment: https://github.com/TouchTunes/mobile-qa-tech-assignment
+Assignment: https://github.com/TouchTunes/mobile-qa-tech-assignment
 
 # To whom it may concern,
 AutomationTest.java when ran in VSC, with the environment configured, will launch the app and navigate to inside of a jukebox.
