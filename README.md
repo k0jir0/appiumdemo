@@ -45,13 +45,13 @@ Note: The path of the build inside of function configureCapabilities() in src/ma
 Note: The path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java should be re-configured to point to the unique identifier of your emulated Android Device. 
 
 Notes:
--JDK 8 is intended for compatibility reasons. 
--$JAVA_HOME must be configured.
--$ANDROID_HOME must be configured.
--Android Studio is running with an emulated device running.
--Appium Server GUI is running and listening on default values.
--LayoutInspector can be prepared to inspect the Android application.
--All Terminal configurations listed in https://www.swtestacademy.com/how-to-install-appium-on-mac/ are configured.
+- JDK 8 is intended for compatibility reasons. 
+- $JAVA_HOME must be configured.
+- $ANDROID_HOME must be configured.
+- Android Studio is running with an emulated device running.
+- Appium Server GUI is running and listening on default values.
+- LayoutInspector can be prepared to inspect the Android application.
+- All Terminal configurations listed in https://www.swtestacademy.com/how-to-install-appium-on-mac/ are configured.
 
 -3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
 -4. Press F5 (MacOS) to run.
@@ -60,48 +60,48 @@ Notes:
 -7. Input 3 to run the automation script.
 
 # Project Specifications:
--MacOS 12.6.2 Monterey
--Java JDK 8
--Android Studio Flamingo
--Homebrew 4.0.18
--Node.js v20.2.0
--npm 9.6.6
--appium 1.22.3
--carthage 0.39.0
--Appium Server GUI 1.20.2
--maven 3.9.2
--Xcode 14.2
--GPS coordinates: 45.5017, -73.5673
+- MacOS 12.6.2 Monterey
+- Java JDK 8
+- Android Studio Flamingo
+- Homebrew 4.0.18
+- Node.js v20.2.0
+- npm 9.6.6
+- appium 1.22.3
+- carthage 0.39.0
+- Appium Server GUI 1.20.2
+- maven 3.9.2
+- Xcode 14.2
+- GPS coordinates: 45.5017, -73.5673
 
 # Visual Studio Code
--Version: 1.78.2 (Universal)
--Commit: b3e4e68a0bc097f0ae7907b217c1119af9e03435
--Date: 2023-05-10T14:44:45.204Z
--Electron: 22.5.2
--Chromium: 108.0.5359.215
--Node.js: 16.17.1
--V8: 10.8.168.25-electron.0
--OS: Darwin x64 21.6.0
--Sandboxed: No
+- Version: 1.78.2 (Universal)
+- Commit: b3e4e68a0bc097f0ae7907b217c1119af9e03435
+- Date: 2023-05-10T14:44:45.204Z
+- Electron: 22.5.2
+- Chromium: 108.0.5359.215
+- Node.js: 16.17.1
+- V8: 10.8.168.25-electron.0
+- OS: Darwin x64 21.6.0
+- Sandboxed: No
 
 # appium-doctor
--ryanwatkins@Ryans-MBP build % appium-doctor
--info AppiumDoctor Appium Doctor v.1.16.2
--info AppiumDoctor ### Diagnostic for necessary dependencies starting ###
--info AppiumDoctor  ✔ The Node.js binary was found at: /usr/local/bin/node
--info AppiumDoctor  ✔ Node version is 20.2.0
--info AppiumDoctor  ✔ Xcode is installed at: /Applications/Xcode.app/Contents/Developer
--info AppiumDoctor  ✔ Xcode Command Line Tools are installed in: /Applications/Xcode.app/Contents/Developer
--info AppiumDoctor  ✔ DevToolsSecurity is enabled.
--info AppiumDoctor  ✔ The Authorization DB is set up properly.
--info AppiumDoctor  ✔ Carthage was found at: /usr/local/bin/carthage. Installed version is: 0.39.0
--info AppiumDoctor  ✔ HOME is set to: /Users/ryanwatkins
--info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/ryanwatkins/Library/Android/sdk
--info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home
--info AppiumDoctor    Checking adb, android, emulator, apkanalyzer
--info AppiumDoctor      'adb' is in /Users/ryanwatkins/Library/Android/sdk/platform-tools/adb
--info AppiumDoctor      'android' is in /Users/ryanwatkins/Library/Android/sdk/tools/android
--info AppiumDoctor      'emulator' is in /Users/ryanwatkins/Library/Android/sdk/emulator/emulator
--info AppiumDoctor      'apkanalyzer' is in /Users/ryanwatkins/Library/Android/sdk/tools/bin/apkanalyzer
--info AppiumDoctor  ✔ adb, android, emulator, apkanalyzer exist: /Users/ryanwatkins/Library/Android/sdk
--info AppiumDoctor  ✔ 'bin' subfolder exists under '/Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home'
+- ryanwatkins@Ryans-MBP build % appium-doctor
+- info AppiumDoctor Appium Doctor v.1.16.2
+- info AppiumDoctor ### Diagnostic for necessary dependencies starting ###
+- info AppiumDoctor  ✔ The Node.js binary was found at: /usr/local/bin/node
+- info AppiumDoctor  ✔ Node version is 20.2.0
+- info AppiumDoctor  ✔ Xcode is installed at: /Applications/Xcode.app/Contents/Developer
+- info AppiumDoctor  ✔ Xcode Command Line Tools are installed in: /Applications/Xcode.app/Contents/Developer
+- info AppiumDoctor  ✔ DevToolsSecurity is enabled.
+- info AppiumDoctor  ✔ The Authorization DB is set up properly.
+- info AppiumDoctor  ✔ Carthage was found at: /usr/local/bin/carthage. Installed version is: 0.39.0
+- info AppiumDoctor  ✔ HOME is set to: /Users/ryanwatkins
+- info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/ryanwatkins/Library/Android/sdk
+- info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home
+- info AppiumDoctor    Checking adb, android, emulator, apkanalyzer
+- info AppiumDoctor      'adb' is in /Users/ryanwatkins/Library/Android/sdk/platform-tools/adb
+- info AppiumDoctor      'android' is in /Users/ryanwatkins/Library/Android/sdk/tools/android
+- info AppiumDoctor      'emulator' is in /Users/ryanwatkins/Library/Android/sdk/emulator/emulator
+- info AppiumDoctor      'apkanalyzer' is in /Users/ryanwatkins/Library/Android/sdk/tools/bin/apkanalyzer
+- info AppiumDoctor  ✔ adb, android, emulator, apkanalyzer exist: /Users/ryanwatkins/Library/Android/sdk
+- info AppiumDoctor  ✔ 'bin' subfolder exists under '/Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home'
