@@ -1,6 +1,6 @@
 # appiumdemo
 
-https://github.com/k0jir0/appiumdemo/tree/master.git is the repo branch containing the VSC project build.
+https://github.com/k0jir0/appiumdemo/tree/master is the repo branch containing the VSC project build.
 
 Setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
 - It is recommended for one to configure their environment according to the setup guide above.
