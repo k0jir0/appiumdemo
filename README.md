@@ -10,7 +10,7 @@ assignment: https://github.com/TouchTunes/mobile-qa-tech-assignment
 # To whom it may concern,
 AutomationTest.java when ran in VSC, with the environment configured, will launch the app and navigate to inside of a jukebox.
 
-Note: Navigating and parsing the object model appears to be restricted due to application access errors, it seems accessibility is limited in the distributed APK, the accessibility of many objects is set to No when inspected in Android Studio. One would not be able to parse the recyclerview carousel of artists for their information on two views and contrast them. Should findBy element id function in a working environment, I have left behind commented code that could be transposed in theory if the objects can be properly acessed. The furthest navigation I was capable of automating was getting into a specific Jukebox of a specific venue.
+Note: Navigating and parsing the object model appears to be restricted due to application access errors, it seems accessibility is limited in the distributed APK, the accessibility of many objects is set to No when inspected in Android Studio. One would not be able to parse the recyclerview carousel of artists for their information on two views and contrast them. Should findBy element id function in a working environment, I have left behind commented code that could be transposed in theory if the objects can be properly acessed. The furthest navigation automated was getting into a specific Jukebox of a specific venue.
 
 # About AutomationTest.java
 
