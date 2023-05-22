@@ -100,3 +100,7 @@ Note: The name of the device inside of function configureCapabilities() in src/m
 - info AppiumDoctor      'apkanalyzer' is in /Users/ryanwatkins/Library/Android/sdk/tools/bin/apkanalyzer
 - info AppiumDoctor  ✔ adb, android, emulator, apkanalyzer exist: /Users/ryanwatkins/Library/Android/sdk
 - info AppiumDoctor  ✔ 'bin' subfolder exists under '/Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home'
+
+# Appium model
+
+![346098021_6223524384398274_2251237371444926198_n (1)](https://github.com/k0jir0/appiumdemo/assets/27692767/31678007-affb-4d02-8884-e7a54ddb2f5f)
