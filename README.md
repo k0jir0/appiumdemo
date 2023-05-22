@@ -12,6 +12,10 @@ AutomationTest.java when ran in VSC, with the environment configured, after inpu
 
 Note: Navigating and parsing the object model appears to be restricted due to application access errors, it seems accessibility is limited in the distributed APK, the accessibility of many objects is set to No when inspected in Android Studio. One would not be able to parse the recyclerview carousel of artists for their information on two views and contrast them. Should findBy element id function in a working environment, I have left behind commented code that could be transposed in theory if the objects can be properly acessed. The furthest navigation automated was getting into a specific Jukebox of a specific venue.
 
+# Appium model
+
+![346098021_6223524384398274_2251237371444926198_n (1)](https://github.com/k0jir0/appiumdemo/assets/27692767/31678007-affb-4d02-8884-e7a54ddb2f5f)
+
 # About AutomationTest.java
 
 The provided code is a Java program that includes various dependencies and classes for automating tests using Appium and Selenium WebDriver. The program consists of a main class called AutomationTest and several supporting functions.
@@ -100,7 +104,3 @@ Note: The name of the device inside of function configureCapabilities() in src/m
 - info AppiumDoctor      'apkanalyzer' is in /Users/ryanwatkins/Library/Android/sdk/tools/bin/apkanalyzer
 - info AppiumDoctor  ✔ adb, android, emulator, apkanalyzer exist: /Users/ryanwatkins/Library/Android/sdk
 - info AppiumDoctor  ✔ 'bin' subfolder exists under '/Library/Java/JavaVirtualMachines/openjdk-8.jdk/Contents/Home'
-
-# Appium model
-
-![346098021_6223524384398274_2251237371444926198_n (1)](https://github.com/k0jir0/appiumdemo/assets/27692767/31678007-affb-4d02-8884-e7a54ddb2f5f)
