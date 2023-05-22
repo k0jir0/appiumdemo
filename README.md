@@ -39,6 +39,12 @@ Overall, this code provides a basic framework for performing automation testing 
 # Run
 1. Clone the build off the repo to your drive
 2. Have configured your environment according to the project as described within this project.
+3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
+4. Press F5 (MacOS) to run.
+5. Read the two notes below before proceeding to Step 6.
+6. When the Java application runs in the embedded Terminal with a lightweight CLI, input 1 to load your device and build paths. 
+7. Input 2 to start the Appium server.
+8. Input 3 to run the automation script.
 
 Note: The path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java should be re-configured to point to the new path of your environment after downloading. the build is contained in the project in a folder called build.
 
@@ -52,12 +58,6 @@ Notes:
 - Appium Server GUI is running and listening on default values.
 - LayoutInspector can be prepared to inspect the Android application.
 - All Terminal configurations listed in https://www.swtestacademy.com/how-to-install-appium-on-mac/ are configured.
-
-- 3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
-- 4. Press F5 (MacOS) to run.
-- 5. When the Java application runs in the embedded Terminal with a lightweight CLI, input 1 to configure your device and build paths.
-- 6. Input 2 to start the Appium server.
-- 7. Input 3 to run the automation script.
 
 # Project Specifications:
 - MacOS 12.6.2 Monterey
