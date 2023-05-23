@@ -59,10 +59,9 @@ Steps:
 3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
 4. Read the two notes below before proceeding to Step 5.
 5. Press F5 (MacOS) to run.
-6. Read the two notes below before proceeding to Step 4, re-start the Java script if necessary.
-7. When the Java application runs in the embedded Terminal with a lightweight CLI, input 1 to load your device and build paths. 
-8. Input 2 to start the Appium server.
-9. Input 3 to run the automation script.
+6. When the Java application runs in the embedded Terminal with a lightweight CLI, input 1 to load your device and build paths. 
+7. Input 2 to start the Appium server.
+8. Input 3 to run the automation script.
 
 Note: The path of the build inside of function configureCapabilities() in src/main/test/java/android/AutomationTest.java must be re-configured to point to the new path of your environment after downloading. the build is contained in the project in a folder called build.
 
