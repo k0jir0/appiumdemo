@@ -52,7 +52,7 @@ Running requires the environment configuration:
 - All Terminal configurations listed in https://www.swtestacademy.com/how-to-install-appium-on-mac/ are configured.
 
 Steps:
-1. Clone the build off the repo to your drive
+1. Clone the build off the repo to your drive.
 2. Have configured your environment according to the project as described within this project.
 3. Inside of VSC, navigate to src/test/java/io/appium/java_client/android/AutomationTest.java and select it to be ran.
 4. Read the two notes below before proceeding to Step 5.
