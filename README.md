@@ -5,8 +5,6 @@ https://github.com/k0jir0/appiumdemo/tree/master is the repo branch containing t
 Setup: https://www.swtestacademy.com/how-to-install-appium-on-mac/
 - It is recommended for one to configure their environment according to the setup guide above.
 
-Assignment: https://github.com/TouchTunes/mobile-qa-tech-assignment
-
 # To whom it may concern,
 https://github.com/k0jir0/appiumdemo/blob/master/src/test/java/io/appium/java_client/android/AutomationTest.java
 
